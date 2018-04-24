@@ -1,0 +1,22 @@
+{
+  "name": "requirejs-practice",
+  "version": "1.0.0",
+  "description": "Studying RequireJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rocket-Hyun/RequireJS-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rocket-Hyun/RequireJS-Practice/issues"
+  },
+  "homepage": "https://github.com/Rocket-Hyun/RequireJS-Practice#readme",
+  "dependencies": {
+    "requirejs": "^2.3.5"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Workspace</title>
+  </head>
+  <body>
+    <div id="app-hook"></div>
+
+    <script data-main="scripts/main.js" src="./node_modules/requirejs/require.js"></script>
+    <script>
+      require.config({
+        // baseUrl: '.',
+
+        paths: {
+          'backbone': '../lib/backbone-min',
+          'underscore': '../lib/underscore-min',
+          'jquery': '../lib/jquery-3.3.1.min',
+        },
+
+
+        urlArgs : 'ts=' + (new Date()).getTime()
+
+      });
+    </script>
+  </body>
+</html>
